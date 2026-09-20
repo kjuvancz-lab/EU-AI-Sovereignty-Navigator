@@ -53,6 +53,7 @@ The version is stamped in the page footer and in a `<meta name="version">` tag.
 
 | Version | Date | Change |
 |---|---|---|
+| 1.1.1 | 20 Sep 2026 | Database row reworked: the knowledge store and Vector DB cards move left so both read as self-hosted (Vector DB centred on the on-prem / cloud divider, as originally), and the whole row is now one clickable unit — hover and selection outline the row rather than the individual boxes, since layer 14 is one body of content. Knowledge / Intellectual Capital subtitle now names the **ontology** and the **context layer**. |
 | 1.1.0 | 20 Sep 2026 | **Knowledge store · graph DB** added to the map, beside Vector DB in the Database row (self-hosted Neo4j, GraphDB or a triple store; row-level security and your keys, as for the relational engine). The row could already hold embeddings — the memory — but had no named engine for the representation itself, which is the layer the context argument turns on. The table's Database prose has not yet been extended for it; the map is ahead of the workbook here. Version stamp added. |
 | 1.0 | 4 Sep 2026 | First public release. Same-day follow-ups: patent jurisdiction rows at layer 16 from workbook v18 (SOV 2.5, 2.6 and 8.4 now covered); link-preview metadata and the social card. |
 
